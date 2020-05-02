@@ -32,7 +32,7 @@ h1{
 	line-height: 1.5;
 }
 .container-fluid{
-	padding: 3% 15%;
+	padding: 3% 15% 7%;
 }
 /* navigation bar */
 .navbar{
@@ -62,6 +62,9 @@ margin-left: 0px
 .title-image{
 	width: 57%;
 	transform: rotate(25deg);
+		position: absolute;
+	right: 32%
+	
 }
 
 
@@ -69,6 +72,9 @@ margin-left: 0px
 
 #features{
 	padding: 7%  15%;
+	position: relative;
+	background-color: #fff;
+
 }
 
 .feature-box{
